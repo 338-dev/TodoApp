@@ -1,0 +1,31 @@
+.topbar{
+    
+    position: fixed;
+        top: 0;
+        height: 60px;
+        background-color: rgb(206, 190, 190);
+        width: 100%;
+        z-index: 1;
+    }
+    .title{
+        position: absolute;
+        left: 10px;
+        font-size: 35px;
+        
+    }
+    .clickso{position: absolute;
+        background-color: white;
+        border-radius: 6px;
+        font-size: 20px;
+        text-align: center;
+        width: 60%;
+    right: 0;
+    cursor: pointer;
+    }
+    
+    .signout{
+        position: absolute;
+        right: 10px;
+        font-size: 30px;
+        top: 10px;
+    }

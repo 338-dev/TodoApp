@@ -1,0 +1,53 @@
+.user{
+position: absolute;
+left: 0;
+right: 0;
+text-align: center;
+font-size: 40px;
+top: 20%;
+color: rgb(176, 183, 184);
+}
+
+.messages{
+  position: absolute;
+  left: 0;
+right: 0;
+top: 30%;
+text-align: center;
+font-size: 30px;
+color: rgb(9, 27, 36);
+}
+
+.logout{
+  position: absolute;
+  left: 0;
+right: 0;
+top: 40%;
+text-align: center;
+font-size: 30px;
+color: rgb(9, 27, 36);
+}
+
+
+  ::-webkit-scrollbar {
+    width: 20px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background-color:white!important;
+    cursor: pointer;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background-color: #b9d1da!important;
+    border-radius: 20px;
+    border: 6px solid transparent;
+    background-clip: content-box;
+    z-index: 1;
+    cursor: pointer;
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background-color: #b6bec0!important;
+    cursor: pointer;
+  } 

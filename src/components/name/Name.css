@@ -1,0 +1,148 @@
+.topbar{
+    
+    position: fixed;
+        top: 0;
+        height: 60px;
+        background-color: rgb(206, 190, 190);
+        width: 100%;
+        z-index: 2;
+    }
+    .title{
+        position: absolute;
+        left: 10px;
+        font-size: 35px;
+        
+    }
+    .button:hover{
+        background-color: rgb(187, 173, 173);
+        border-radius: 12px;
+        transition: 0.5s;
+        padding: 4px 3px;
+    }
+    
+    .signout{
+        position: absolute;
+        right: 10px;
+        font-size: 30px;
+        top: 10px;
+    }
+    .user{
+        position: absolute;
+        left: 0;
+        right: 0;
+        text-align: center;
+        font-size: 40px;
+        top: 20%;
+        color: rgb(176, 183, 184);
+    }
+    .main{
+        position: absolute;
+        top: 60px;
+        height:681px;
+        width: 100%;
+        background-color: rgb(114, 26, 88);
+        background-repeat:repeat;
+    } 
+    .listName{
+        position: absolute;
+        left: 0;
+        right: 0;
+        text-align: center;
+        font-size: 40px;
+        top:10%
+    }
+    .listItem{
+        position: absolute;
+        left: 28.7%;
+        right: 0;
+        
+        font-size: 20px;
+        top:20%;
+        width: 50%;
+        padding-right:7% ;
+        
+    }
+    
+    .clearList{
+        position: absolute;
+        width: 20%;
+        left: 52%;
+        right: 0;
+        align-content: center;
+    }
+    .submit{
+        position: absolute;
+        width: 20%;
+        left: 40%;
+        right: 0;
+        top: 40%;
+        align-content: center;
+    }
+    .showItems{
+        position: absolute;
+        top: 35%;
+        left: 0;
+        right: 0;
+        height: 50%;
+       margin-bottom: 10%;
+    }
+    svg:hover{
+       cursor: pointer;
+    } 
+    .container{
+        background-color: antiquewhite;
+        padding: 1%;
+        margin-bottom: 20px;
+        border-radius: 5px;
+        width: 40%;
+        
+    }
+    .img{
+        position: absolute;
+        top: 21%;
+        left: 69%;
+    }
+    .img:hover{
+        cursor: pointer;
+    }
+    body{
+        background-color: rgb(114, 26, 88);
+        padding-right:100px ;
+    }
+    .input-group-text:hover{
+        background-color: lightblue;
+    }
+
+    .listtopicnames{
+        position: absolute;
+        top: 7%;
+        left: 0;
+        width: 24%;
+        height: 100%;
+        background-color: rgb(255, 255, 255);
+        z-index: 1;
+        background-color: rgb(38, 98, 116);
+    }
+    .item{
+        padding-top: 14%;
+        padding-bottom: 5%;
+        padding-left: 5%;
+        border: .01px solid rgb(49, 151, 182);
+        background-color: rgb(36, 90, 121);
+        
+        font-family:monospace;
+    }
+    .item:hover{
+        background-color: rgb(32, 144, 189);
+    }
+@media only screen and (min-width: 1280px){
+.item{
+    font-size: 50px;
+  }
+}
+@media only screen and (min-width: 770px){
+    .item{
+        font-size: 20px;
+      }
+    }
+    
